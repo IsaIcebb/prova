@@ -1,0 +1,60 @@
+.navbar {
+    position:fixed;
+    z-index: 1000;
+    top:0;
+    width: 100%;
+    background-color: #da8aff;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(217, 255, 174);
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.paragrafo{
+    margin-left: 30px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: arial;
+    text-align: justify;
+    line-height: 1.5;
+}
+#home{
+   padding-top: 50px;
+}
+.navbar a:hover {
+    background-color: hsl(162, 100%, 74%);
+    color: rgb(38, 126, 4);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cards {
+    background-color: #71ff84;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+}
+.fotos{
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    background-color: antiquewhite;
+}
